@@ -16,5 +16,11 @@ public class ContactTest {
 		String username = System.getProperty("user");
 		 System.out.println("======="+username+"========");
 	}
+	@Test
+	public void deleteContactTest()
+	{
+		System.out.println("execute deleteContactTest");
+	}
+	
 
 }
